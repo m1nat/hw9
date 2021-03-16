@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+    height: 350px;
+    margin-top: 190px;
+    background: url(./../img/4ntgxuhh2n0.jpg) no-repeat;
+    background-size: 100%;
+    justify-items: center;
+    align-items: center;
+    color: blanchedalmond;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    background: url(./../img/logo.svg) no-repeat top center;
+    background-size: cover;
+}
+
+.footer_:nth-child(2), .footer_:nth-child(3), .footer_:nth-child(4) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 130px;
+    height: 130px;
+    justify-items: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 350px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.facebook, .youtube, .twitter {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+.facebook {
+    background: url(http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png) no-repeat top center;
+    background-size: 100%;
+}
+
+.skype {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Skype-icon.png/1200px-Skype-icon.png) 
+    no-repeat top center;
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+.youtube {
+    background: url(http://pngimg.com/uploads/youtube/youtube_PNG21.png) no-repeat center center;
+    background-size: 100%;
+}
+
+.twitter {
+    background: url(https://1000logos.net/wp-content/uploads/2016/11/Facebook-logo.png) no-repeat top center;
+    background-size: 100%;
+}

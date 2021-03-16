@@ -1,0 +1,84 @@
+@import "./modal.css";
+@import "./header.css";
+@import "./article.css";
+@import "./footer.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-attachment: fixed;
+    background: url(./../img/top-image.jpg) no-repeat center top;
+    background-size: cover;
+}
+
+menu {
+    width: 100%; 
+    height: 40px;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    justify-items: stretch;
+    align-items: stretch;
+    text-align: center;
+    background: rgb(242,246,247);
+    background: radial-gradient(circle, rgba(242,246,247,1) 0%, rgba(144,150,156,0.8267682072829132) 71%);
+    font-size: 1em;
+}
+
+.menu {
+    opacity: 0.6;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+
+.menu:nth-child(1) {
+    grid-column: 1/5;
+    background: url(./../img/uefa-logo-black.svg) no-repeat left center;
+    background-position: 21px;
+}
+
+.menu:nth-child(5) {
+    width: 200px;
+}
+
+.menu:nth-child(-1n+8):hover {
+    color: blue;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    transition-duration: 1s;
+}
+
+a:hover {
+    color: blue;
+}
+
+select {
+    margin-top: 4px;
+    width: 150px;
+    outline: none;
+    background-color: rgba(144,150,156,0.8267682072829132);
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+option {
+    background-color: rgb(10, 3, 114);
+    color: white;
+    transition-duration: 1s;
+}
+
+option:hover {
+    background-color: turquoise;
+    color: rgb(10, 3, 114);
+}
